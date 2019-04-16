@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;  
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+}
+
+.logo {
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+header.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between; 
+    background-color: #551a8b;
+    border: 3px solid #000;
+
+}
+
+ul {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #551a8b;
+}
+
+li {
+    display: flex;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+p.one {
+    font-size: 40px;
+    color: black;
+}
+
+p.two {
+    font-size: 40px;
+    color: black;
+}
+
+p.three {
+    font-size: 40px;
+    color: black;
+}
+
+div.paragraphs {
+    background-color: aqua;
+}
+
+
+@media only screen and (max-width: 768px) {
+    p.one {
+        font-size: 25px;
+        color: green;
+    }
+
+    p.two {
+        font-size: 25px;
+        color: green;
+    }
+
+    p.three {
+        font-size: 25px;
+        color: green;
+    }
+
+    div.paragraphs {
+        background-color: lightgrey;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    p.one {
+        font-size: 15px;
+        color: red;
+    }
+
+    p.two {
+        font-size: 15px;
+        color: red;
+    }
+
+    p.three {
+        font-size: 15px;
+        color: red;
+    }
+
+    div.paragraphs {
+        background-color: orange;
+    }
+}
